@@ -1,6 +1,6 @@
-# ARK SH - Gerenciador de Usuários e Conexões
+# ArkSH - Gerenciador de Usuários e Conexões
 
-O **ARK SH** é um gerenciador de usuários e conexões para servidores Linux, desenvolvido para ser **leve**, **eficiente** e **totalmente independente de outros sistemas ou bancos de dados externos**.
+O **ArkSH** é um gerenciador de usuários e conexões para servidores Linux, desenvolvido para ser **leve**, **eficiente** e **totalmente independente de outros sistemas ou bancos de dados externos**.
 
 ---
 
@@ -21,13 +21,13 @@ Compatível com **SSH**, **Dropbear**, **OpenVPN**, e outros, trabalhando **dire
 
 - ✅ **Leitura de usuários somente nos arquivos reais do sistema**  
 Usuários criados apenas em bancos locais (ex: `usuarios.db`) **não serão reconhecidos**.  
-Somente **usuários reais presentes no sistema** aparecem no ARK SH.
+Somente **usuários reais presentes no sistema** aparecem no ArkSH.
 
 ---
 
 ## ⚙️ Menu de Configurações
 
-O ARK SH possui um **painel interno de configurações**, permitindo personalização total:
+O ArkSH possui um **painel interno de configurações**, permitindo personalização total:
 
 - 🎨 **Temas de Cores**  
 Personalize o esquema de cores da interface.
@@ -51,7 +51,7 @@ Incluindo opções de desempenho, segurança e comportamento do sistema.
 
 ## 📂 Estrutura e Dependências
 
-O ARK SH depende apenas dos seguintes diretórios internos:
+O ArkSH depende apenas dos seguintes diretórios internos:
 
 ```
 /opt/arksh/config
@@ -73,11 +73,11 @@ Não requer bancos de dados externos ou serviços adicionais.
 
 ## 📣 Observações Importantes
 
-- **Usuários criados apenas dentro de bancos de dados externos de outros painéis não aparecerão no ARK SH**, pois o sistema lê apenas os arquivos reais do sistema.
+- **Usuários criados apenas dentro de bancos de dados externos de outros painéis não aparecerão no ArkSH**, pois o sistema lê apenas os arquivos reais do sistema.
 
 - Por segurança, qualquer alteração nos limites de conexão afeta apenas usuários **com UID acima de 1000**.
 
-- O ARK SH foi projetado para **não sobrescrever nem interferir nas configurações de outros gerenciadores**.
+- O ArkSH foi projetado para **não sobrescrever nem interferir nas configurações de outros gerenciadores**.
 
 ---
 
